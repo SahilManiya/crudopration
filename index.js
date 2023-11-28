@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose=require('mongoose');
 // const db = require('./config/mongoose');    //what is use of db//
-mongoose .connect("mongodb+srv://jagatiyarupesh8890:riflemen143@cluster0.46wllz3.mongodb.net/info", {
+mongoose .connect("mongodb+srv://sahilmaniya67:sahil123@cluster0.lo2fd0u.mongodb.net/info", {
     useUnifiedTopology: true,
     useNewUrlParser: true, })
     .then(() => console.log('Database connected.'))
